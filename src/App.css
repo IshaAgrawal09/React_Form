@@ -1,44 +1,48 @@
 .App {
   /* text-align: center; */
 }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .form{
-  width: 45%;
+  width: 50%;
   margin: 2% auto;
-  padding: 3% 4%;
+  padding: 5% 2%;
   border: 1px solid #eee;
   border-radius: 7px;
-}
-.form div label{
-  display: block;
-}
-.form h1{
-  color: rgb(148, 146, 146);
-  font-weight: 300;
-}
-.form input[type="text"],input[type="email"],input[type="date"]{
-  width: 95%;
-  padding: 2.5% 2%;
-  margin: 3% 0 3% 0;
-}
-.form input::placeholder{
-  color: gray;
-}
-.flex{
-  width: 94%;
-  /* border: 1px solid black; */
-  display: flex;
-  justify-content: space-between;
-}
-.inputArea{
-  width: 90%;
+  box-shadow: 4px 3px 8px 2px #808080;
 }
 
-.form #fName{
-  margin-right: 4px;
+.form input, textarea{
+  padding: 4px 8px;
+  margin: 4%;
 }
-.form #fatherFName, #motherFName{
-  margin-right: 4px;
+#error{
+  color: red;
 }
-.form .gender{
-  display: inline;
+
+.showres{
+  width: 100%;
+  margin: 8% auto;
+  padding: 5% 2%;
+  border-radius: 7px;
+  background-color: #eee;
+  box-shadow: 4px 3px 8px 2px #808080;
 }
+.showres table{
+  width: 100%;
+  padding: 3%;
+  
+}
+.showres td{
+  padding: 1.5% 2%;
+}
+/* .btn{
+ 
+  background-color: #afacac;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 15px;
+} */
